@@ -21,8 +21,9 @@ export const Navbar = () => {
           </button> */}
           <Link className="navbar-brand fw-bold text-light" href="/">
             <img
-              width="150px"
-              src="https://growthifymedia.com/wp-content/uploads/2022/03/growthify-logo.png"
+            
+              width="100px"
+              src="./insights-logo.png"
               alt=""
             />
           </Link>
@@ -61,16 +62,16 @@ export const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-center">
+          </div>
+          <div className="text-center">
               <Link
-                className="btn fw-bold rounded-pill"
+                className="btn fw-bold rounded-pill text-light"
                 href="/login"
                 style={{ marginRight: "10px", background: "#FE4C1C" }}
               >
-                Subscribe
+                +91 9554134212
               </Link>
             </div>
-          </div>
         </div>
       </nav>
     </div>

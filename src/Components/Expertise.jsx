@@ -5,7 +5,7 @@ export const Expertise = () => {
   return (
     <div className="container">
       <div className="row mt-5 pt-5">
-        <h2 className="fw-bold text-center mb-5 pb-3">My Expertise</h2>
+        <h2 className="fw-bold text-center mb-5 pb-3">Our Expertise</h2>
       </div>
       <div className="row">
         <div className="col-12">
@@ -17,11 +17,10 @@ export const Expertise = () => {
               />
               <div className="row container text-center">
                 <h4 className="fw-bold">
-                  Growthify Media Focus on growing product Brand
+                E-commerce Startups and Brands
                 </h4>
                 <p className="mt-2">
-                  Get the best bang for your buck by taking your products to
-                  customers who will never stop buying from you.
+                Embrace a new era of E-commerce innovation with our specialized services at INSIGHT ADDS. We cater to the unique needs of E-commerce startups and established brands, providing targeted solutions for those eager to thrive in the online marketplace. Whether you're a burgeoning startup or an established brand ready to take the next leap, our focus is on aiding your growth journey.
                 </p>
               </div>
             </div>
@@ -32,11 +31,10 @@ export const Expertise = () => {
               />
               <div className="row container text-center">
                 <h4 className="fw-bold">
-                  Growthify Media Focus on growing product Brand
+                E-learning Coaches and Info-product Businesses
                 </h4>
                 <p className="mt-2">
-                  Get the best bang for your buck by taking your products to
-                  customers who will never stop buying from you.
+                Step into a realm of digital education excellence with INSIGHT ADDS Agency, your dedicated partner in driving success for E-learning Coaches and Info-product Businesses. Tailored specifically for those in the educational and informational product sectors, our services cater to individuals and businesses keen on expanding their online footprint.
                 </p>
               </div>
             </div>

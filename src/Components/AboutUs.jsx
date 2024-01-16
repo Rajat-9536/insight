@@ -8,21 +8,15 @@ export const AboutUs = () => {
           <div className="row align-items-center">
             <div className="col-12 col-lg-6">
               <div className="row">
-                <span className="fw-bold text-light " style={{backgroundColor:"#FE4C1C",borderRadius:"5px"}}>ABOUT US</span>
+                <span className="fw-bold text-light text-center" style={{backgroundColor:"#FE4C1C",borderRadius:"5px", width:"20%"}}>ABOUT US</span>
                 <h1 className="fw-bold">
-                  Growthify Media Focus on growing product Brand
+                  insights Media Focus on growing product Brand
                 </h1>
                 <p className="mt-4">
-                  Growthify Media is a <strong>Data Driven Performance marketing agency </strong>
-                  where we work with Specialized Coaches, Brands & Professional
-                  companies who are looking to grow and need to attract new
-                  customers and generate leads for growth.
+                Welcome to INSIGHT ADDS, your premier destination for Data-Driven Performance Marketing. We specialize in collaborating with Specialized Coaches, Brands, and Professional Companies poised for growth. Our mission is to assist businesses in attracting new customers and generating leads that fuel sustainable expansion.
                 </p>
                 <p>
-                  Growthify Media is a Data Driven Performance marketing agency
-                  where we work with Specialized Coaches, Brands & Professional
-                  companies who are looking to grow and need to attract new
-                  customers and generate leads for growth.
+                At INSIGHT ADDS, we recognize the unique needs of our clients. Whether you're a Specialized Coach seeking to amplify your reach, a Brand aiming for market dominance, or a Professional Company on the verge of transformative growth – we've got you covered.
                 </p>
               </div>
               <div className="row">
@@ -35,7 +29,7 @@ export const AboutUs = () => {
                         src="https://img.icons8.com/ios-glyphs/30/000000/double-tick--v1.png"
                         alt="double-tick--v1"
                       />
-                      <p>50+ Happy Clients</p>
+                      <p>20+ Happy Clients</p>
                     </div>
                     <div className="col-6 d-flex">
                       <img
@@ -44,7 +38,7 @@ export const AboutUs = () => {
                         src="https://img.icons8.com/ios-glyphs/30/000000/double-tick--v1.png"
                         alt="double-tick--v1"
                       />
-                      <p>50+ Happy Clients</p>
+                      <p>Fast Execution</p>
                     </div>
                     <div className="col-6 d-flex">
                       <img
@@ -53,7 +47,7 @@ export const AboutUs = () => {
                         src="https://img.icons8.com/ios-glyphs/30/000000/double-tick--v1.png"
                         alt="double-tick--v1"
                       />
-                      <p>50+ Happy Clients</p>
+                      <p>Proven Track Record</p>
                     </div>
                     <div className="col-6 d-flex">
                       <img
@@ -62,7 +56,7 @@ export const AboutUs = () => {
                         src="https://img.icons8.com/ios-glyphs/30/000000/double-tick--v1.png"
                         alt="double-tick--v1"
                       />
-                      <p>50+ Happy Clients</p>
+                      <p>ROAS Approach</p>
                     </div>
                   </div>
                 </div>
@@ -70,7 +64,7 @@ export const AboutUs = () => {
             </div>
             <div className="col-12 col-lg-6">
               <img
-                src="https://growthifymedia.com/wp-content/uploads/2022/03/website-image-2.png"
+                src="./about-us-image.png"
                 alt=""
               />
             </div>

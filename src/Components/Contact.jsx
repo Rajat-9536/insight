@@ -16,11 +16,7 @@ export const Contact = () => {
               <h5 className="fw-bold text-primary">Contact Us</h5>
               <h1 className="fw-bold">Feel Free to Contact Us</h1>
               <p className="mt-4">
-                Growthify Media is a{" "}
-                <strong>Data Driven Performance marketing agency </strong>
-                where we work with Specialized Coaches, Brands & Professional
-                companies who are looking to grow and need to attract new
-                customers and generate leads for growth.
+              Welcome to INSIGHT ADDS, your premier destination for Data-Driven Performance Marketing. We specialize in collaborating with Specialized Coaches, Brands, and Professional Companies poised for growth. Our mission is to assist businesses in attracting new customers and generating leads that fuel sustainable expansion.
               </p>
             </div>
           </div>

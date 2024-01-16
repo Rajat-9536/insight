@@ -25,7 +25,7 @@ export const BrandAwareness = () => {
               them to voice their opinion or know how it would benefit them.
               Since the exponential growth of the digital world, the
               consumer-corporation relation has taken a complete turnover.
-              Growthify Media is a full-service performance based marketing
+              insights Media is a full-service performance based marketing
               agency, expert at helping brands to achieve increased leads with
               enhanced ROAS and lower CPA with our effective strategies and fast
               execution. We dive into the diversified audience and crack the
