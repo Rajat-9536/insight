@@ -1,0 +1,45 @@
+body {
+  background-color: #eaf3ff;
+}
+
+.background-overlay {
+  background-image: url(../public/network-3524352_1280.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.background-overlay-header {
+  background-image: linear-gradient(220.55deg, #00b960 0%, #00552c 25%),
+    url(../public/network-3524352_1280.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.banner-image {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.heading-color
+{
+    color: #fe4c1c;
+}
