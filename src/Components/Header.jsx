@@ -8,9 +8,7 @@ export const Header = () => {
         <div className="row align-items-center" style={{ paddingTop: "100px",paddingBottom: "100px" }}>
           <div className="col-12 col-lg-6">
             <h1 className="fw-bold text-light display-5">
-              <span className="heading-color">Performance</span> Marketing Agency turn <span style={{ color: "#fe4c1c" }}>
-                Adventure
-              </span> into{" "}
+              <span className="heading-color">Performance</span> Marketing Agency specializes in turning advertising into high-impact leads and maximazing
               <span style={{ color: "#fe4c1c" }}>
                 ROAS!
               </span>
