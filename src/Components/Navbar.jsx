@@ -69,7 +69,7 @@ export const Navbar = () => {
                 href="/login"
                 style={{ marginRight: "10px", background: "#FE4C1C" }}
               >
-                +91 9554134212
+                +91 91492 19740
               </Link>
             </div>
         </div>
