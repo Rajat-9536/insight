@@ -10,7 +10,7 @@ export const AboutUs = () => {
               <div className="row">
                 <span className="fw-bold text-light text-center" style={{backgroundColor:"#FE4C1C",borderRadius:"5px", width:"20%"}}>ABOUT US</span>
                 <h1 className="fw-bold">
-                  insights Media Focus on growing product Brand
+                  Insights Media Focus on growing product Brand
                 </h1>
                 <p className="mt-4">
                 Welcome to INSIGHT ADDS, your premier destination for Data-Driven Performance Marketing. We specialize in collaborating with Specialized Coaches, Brands, and Professional Companies poised for growth. Our mission is to assist businesses in attracting new customers and generating leads that fuel sustainable expansion.
