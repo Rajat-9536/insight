@@ -1,19 +1,23 @@
 import React from "react";
+import { data } from "../Pages/SiteData";
 
 export const FAQs = () => {
+  const filterAboutData = data.filter((item) => item.itempath === "faq");
   return (
     <div className="container">
       <div className="row mt-5 pt-5">
-        <h1 className="fw-bold text-center mb-3">Testimonial</h1>
+        <h1 className="fw-bold text-center mb-3">{filterAboutData[0].title}</h1>
         <h3 className="fw-bold text-center" style={{ color: "#FE4C1C" }}>
-          What our client say about us!
+          {filterAboutData[0].subtitle}
         </h3>
       </div>
       <div className="row mt-5 mb-5">
         <div className="col-12">
           <div className="row align-items-center">
             <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
+              {
+                filterAboutData[0].dataPoint.map((datapoint) => (
+                  <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
                     class="accordion-button"
@@ -23,7 +27,7 @@ export const FAQs = () => {
                     aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseOne"
                   >
-                    Accordion Item #1
+                    {datapoint.title}
                   </button>
                 </h2>
                 <div
@@ -31,78 +35,12 @@ export const FAQs = () => {
                   class="accordion-collapse collapse show"
                 >
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                  {datapoint.description}
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo"
-                  >
-                    Accordion Item #2
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseTwo"
-                  class="accordion-collapse collapse"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>{" "}
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree"
-                  >
-                    Accordion Item #3
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseThree"
-                  class="accordion-collapse collapse"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
+                ))
+              }
             </div>
           </div>
         </div>
