@@ -3,8 +3,6 @@ import { data } from "../Pages/SiteData";
 
 export const Contact = () => {
 
-  const [aboutData, setAboutData] = useState(data);
-
   const filterAboutData = data.filter(
     (item) => item.itempath === "contact-us"
   );

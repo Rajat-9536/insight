@@ -2,14 +2,11 @@ import React, { useState } from "react";
 import { data } from "../Pages/SiteData";
 
 export const AboutUs = () => {
-  const [aboutData, setAboutData] = useState(data);
+  const [aboutData] = useState(data);
 
   const filterAboutData = aboutData.filter(
     (item) => item.itempath === "about-us"
   );
-
-  
-
   console.log("about-us data",filterAboutData);
   return (
     <div className="container">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { data } from "../Pages/SiteData";
 
 export const Header = () => {
-  const [headerData, setHeaderData] = useState(data);
+  const [headerData] = useState(data);
 
   console.log(headerData);
   const filterHeaderData = headerData.filter((item) => item.itempath === "header");
