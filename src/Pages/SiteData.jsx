@@ -1,7 +1,7 @@
 export const data = [
     {
         id: 1,
-        title: "Performance Marketing Agency specializes in turning advertising into high-impact leads and maximazingROAS!",
+        title: "Digital Marketing Agency specializes in turning advertising into high-impact leads and maximazingROAS!",
         itempath:"header",
         description:"100% Guarantee of increase in Sales, Leads, Brand awareness.",
         image:"https://insightsads.netlify.app/services-images.png",
